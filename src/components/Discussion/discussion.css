@@ -1,0 +1,47 @@
+.Discussion {
+  padding: 20px;
+  padding-top: 80px;
+  display: flex;
+  height: 70vh;
+  width: 80vw;
+  margin: 0 10vw;
+  background-color: whitesmoke;
+  justify-content: space-around;
+}
+.topics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+}
+.topic {
+  width: 96%;
+  height: 40px;
+  background-color: grey;
+  text-align: center;
+  cursor: pointer;
+  margin: 2px 2%;
+  padding: 20px 10px 0 0px;
+}
+.topic :hover {
+  background-color: white;
+}
+.discuss {
+  width: 45vw;
+  background-color: white;
+}
+.discussion_heading {
+  width: 95%;
+  margin: 5px auto;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 25px;
+  height: 25px;
+  background-color: grey;
+}
+.discussion_Channel {
+  border: 1px solid balck;
+  height: calc(100% - 60px);
+  width: 95%;
+  margin: 5px auto;
+}

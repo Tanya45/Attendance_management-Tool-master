@@ -1,0 +1,103 @@
+.register {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 40px;
+    background-color: white; */
+}
+@media screen and (max-width: 340px) {
+  .register_details {
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    width: 280px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 -150px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    padding-bottom: 0px;
+    z-index: 100;
+    background-color: white;
+    transition: all 1s;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 340px) {
+  .register_details {
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 -170px;
+    border: 2px solid lightgray;
+    padding: 20px;
+    padding-bottom: 0px;
+    z-index: 100;
+    background-color: white;
+    transition: all 1s;
+    border-radius: 20px;
+  }
+}
+
+.register_details > p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+.register_name {
+  position: relative;
+  font-size: large;
+  font-weight: 500;
+}
+.register_value {
+  height: 25px;
+  width: 248px;
+  margin: 5px 5px;
+  border-radius: 10px;
+}
+.register_button {
+  /* background: blue; */
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 100%;
+  /* color: aliceblue; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: large;
+  align-items: center;
+  height: 35px;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(218, 239, 247);
+  border-color: lightskyblue;
+}
+.register_loginLink {
+  text-align: center;
+  /* border-radius: 10px; */
+  width: 100%;
+  /* color: aliceblue; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-weight: 500; */
+  font-size: small;
+  align-items: center;
+  height: 25px;
+}
+.absolute_blackDim {
+  position: fixed;
+  /* background-color: pink; */
+  background-color: lightslategrey;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+}

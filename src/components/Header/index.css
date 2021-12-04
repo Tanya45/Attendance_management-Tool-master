@@ -1,0 +1,36 @@
+.Header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  margin-top: 0;
+}
+.HeaderWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+.Navigations {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Logo {
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: fantasy;
+}
+.nav {
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: 500;
+  cursor: pointer;
+}

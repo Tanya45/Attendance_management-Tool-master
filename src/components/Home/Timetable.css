@@ -1,0 +1,68 @@
+.timetable {
+  padding-top: 80px;
+}
+.showTimetable {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.timetable_Heading {
+  text-align: center;
+  font-size: 24px;
+}
+.block {
+  height: 10vh;
+  border-top: 1px solid grey;
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+}
+.light {
+  background-color: lightgrey;
+}
+.dark {
+  background-color: darkgrey;
+}
+.block_day {
+  /* background-color: grey; */
+  width: 130px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  border-right: 1px solid grey;
+}
+.createTimetable {
+  width: 80vw;
+  margin: auto;
+}
+.AddClassHeading {
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0px;
+}
+.timetableForm {
+  background-color: whitesmoke;
+  border: 0.5px solid lightgrey;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.block_shedule {
+  height: 100%;
+  display: flex;
+  overflow: scroll;
+}
+.Shed_class {
+  width: 150px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  border-right: 1px solid grey;
+}

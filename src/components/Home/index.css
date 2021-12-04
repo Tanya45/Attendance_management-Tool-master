@@ -1,0 +1,39 @@
+.home {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  background-color: rgb(77, 76, 76);
+  padding-top: 80px;
+}
+.TodayShedule {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: auto;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+.sheduleHeading {
+  font-size: 24px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+}
+.classBlock {
+  height: 60px;
+  margin: 5px;
+  background-color: white;
+  border: 0.5px solid grey;
+  display: flex;
+  align-items: center;
+}
+.className {
+  width: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+.classTime {
+  width: 100px;
+  text-align: center;
+  font-size: 25px;
+  border-right: 1px solid grey;
+}
