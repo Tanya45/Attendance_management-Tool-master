@@ -3,7 +3,7 @@ import Channel from "./channel";
 import "./discussion.css";
 
 function Discussion(props) {
-  const [selectedChannel, setSelectedChannel] = useState("C++");
+  const [selectedChannel, setSelectedChannel] = useState("Python");
   return (
     <div className="Discussion">
       <div className="topics">
