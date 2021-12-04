@@ -79,7 +79,7 @@ export default function Attendance() {
                             <td/>
                             <td/>
                                 
-                            { /* tanya bhenki lauri */}
+                            
                             </> :
                             user && user.user?.uid === "qS7VCrpOagbLoI1gIHBlQ6qv47I2" ?
                             <>
